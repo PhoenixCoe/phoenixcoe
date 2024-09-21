@@ -1,0 +1,115 @@
+body {
+    font-family: Poppins;
+    background-image: url(images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.logo {
+    width: 700px;
+    object-fit: contain;
+    object-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 335px;
+    padding-bottom: 355px;
+}
+
+.Content1 {
+    background-color: rgb(255, 255, 255, 0.30);
+    width: 75%;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.Content2 {
+    background-color: rgb(255, 255, 255, 0.30);
+    width: 75%;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.Content3 {
+    background-color: rgb(255, 255, 255, 0.30);
+    width: 75%;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+
+.MiniMayhemLogo {
+    border-radius: 10%;
+    width: 20%;
+    border-style: solid;
+    border-width: 12.5px;
+    border-color: white;
+}
+
+.MiniMayhemlink {
+    transition-duration: 0.15s;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.MiniMayhemlink:hover {
+    transition-duration: 0.15s;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.PhoenixsLablink {
+    transition-duration: 0.15s;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.PhoenixsLablink:hover {
+    transition-duration: 0.15s;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.PhoenixsLabPFP {
+    border-radius: 10%;
+    width: 20%;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: 400;
+}
