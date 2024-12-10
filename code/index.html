@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>phoenixcoe</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+        <img class="image" src="/images/pfp.png">
+
+    <header class="hero">
+        <h1>Hello 👋</h1>
+        <p>I'm <span class="highlight">Phoenix</span>, a <span class="highlight">frontend developer</span> based in the UK.</p>
+    </header>
+
+
+    <div class="main_container">
+        <nav class="filter">
+            <button id="btn_about">About</button>
+            <button id="btn_projects">Projects</button>
+            <button id="btn_contact">Contact</button>
+        </nav>
+            <div class="blocks">
+                <div class="about" id="about">
+                    <h1>About</h1>
+                    <p>I’m <span class="highlight">Phoenix Coe</span>, a passionate web developer and tech enthusiast with a keen interest in game design and content creation. I specialize in <span class="highlight">HTML, CSS, and JavaScript</span>, combining creativity and technical skills to craft engaging websites and digital experiences. When I’m not coding, I enjoy <span class="highlight">exploring new technologies</span> and constantly learning to stay ahead in the ever-evolving tech world.
+                    <br><br><span class="highlight">- Phoenix Coe 2024</span></p>
+                </div>
+                <div class="projects" id="projects">
+                    <h1>Projects</h1>
+                    <img class="MMLogo" src="/images/Mini Mayhem.png"><br>
+                    <a href="https://phoenixcoder.itch.io/minimayhem">Mini Mayhem</a>
+                    <h1></h1>
+                </div>
+                <div class="contact" id="contact">
+                    <h1>Contact</h1>
+                    <p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=phoenixcoe@phoenixcoe.tech&su=SUBJECT&body=BODY" alt="phoenixcoe@phoenixcoe.tech" target="_blank">phoenixcoe@phoenixcoe.tech</a><br>Github: <a href="https://github.com/PhoenixCoe" alt="Phoenix Coe" target="_blank">Phoenix Coe</a><br> Itch.io: <a href="https://phoenixcoder.itch.io/" alt="PhoenixCoder" target="_blank">PhoenixCoder</a><br>YouTube: <a href="https://www.youtube.com/@PhoenixsLabVids" alt="PhoenixsLab" target="_blank">PhoenixsLab</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        var btn_about = document.getElementById("btn_about")
+        var btn_projects = document.getElementById("btn_projects")
+        var btn_contact = document.getElementById("btn_contact")
+        var about = document.getElementById("about")
+        var projects = document.getElementById("projects")
+        var contact = document.getElementById("contact")
+        btn_about.addEventListener('click', ()=>{
+            about.style.display='block';
+            projects.style.display='none';
+            contact.style.display='none';
+        });
+        btn_projects.addEventListener('click', ()=>{
+            about.style.display='none';
+            projects.style.display='block';
+            contact.style.display='none';
+        });
+        btn_contact.addEventListener('click', ()=>{
+            about.style.display='none';
+            projects.style.display='none';
+            contact.style.display='block';
+        });
+    </script>
+</body>
